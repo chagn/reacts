@@ -1,9 +1,5 @@
 <div id="content"></div>
 <script type="text/babel">
-  var data = [
-    {id: 1, author: "Pete Hunt^^", content: "This is one comment"},
-    {id: 2, author: "Jordan Walke**", content: "This is *another* comment"}
-  ];
   var Comment = React.createClass({
     rawMarkup: function() {
       var rawMarkup = marked(this.props.children.toString(), {sanitize: true});
