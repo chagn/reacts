@@ -1,8 +1,8 @@
 <div id="content"></div>
 <script type="text/babel">
   var data = [
-    {id: 1, author: "Pete Hunt^^", text: "This is one comment"},
-    {id: 2, author: "Jordan Walke**", text: "This is *another* comment"}
+    {id: 1, author: "Pete Hunt^^", content: "This is one comment"},
+    {id: 2, author: "Jordan Walke**", content: "This is *another* comment"}
   ];
   var Comment = React.createClass({
     rawMarkup: function() {
@@ -25,7 +25,7 @@
       var commentNodes = this.props.data.map(function(comment) {
         return (
           <Comment author={comment.author} key={comment.id}>
-            {comment.text}
+            {comment.content}
           </Comment>
         );
       });
