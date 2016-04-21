@@ -4,4 +4,6 @@ Rails.application.routes.draw do
       #get 'hello_world'
     end
   end
+  resources :comments
+
 end
