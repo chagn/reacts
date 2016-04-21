@@ -1,0 +1,205 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react',
+1 verbose cli   'react-dom',
+1 verbose cli   'babelify',
+1 verbose cli   'babel-preset-react' ]
+2 info using npm@3.7.3
+3 info using node@v5.9.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData react
+8 silly fetchPackageMetaData react-dom
+9 silly fetchPackageMetaData babelify
+10 silly fetchPackageMetaData babel-preset-react@^6.5.0
+11 silly fetchNamedPackageData babel-preset-react
+12 silly mapToRegistry name babel-preset-react
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-react
+16 silly fetchNamedPackageData react
+17 silly mapToRegistry name react
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/react
+21 silly fetchNamedPackageData react-dom
+22 silly mapToRegistry name react-dom
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+26 silly fetchNamedPackageData babelify
+27 silly mapToRegistry name babelify
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry uri https://registry.npmjs.org/babelify
+31 verbose request uri https://registry.npmjs.org/babel-preset-react
+32 verbose request no auth needed
+33 info attempt registry request try #1 at 01:17:14
+34 verbose request id 356f3436ad277682
+35 verbose etag "AAXQGJEKJSO0IQ1TMI84425A4"
+36 http request GET https://registry.npmjs.org/babel-preset-react
+37 verbose request uri https://registry.npmjs.org/react-dom
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 01:17:14
+40 verbose etag "74WCFHPANIL0XLKAL8Q0QECCF"
+41 http request GET https://registry.npmjs.org/react-dom
+42 verbose request uri https://registry.npmjs.org/babelify
+43 verbose request no auth needed
+44 info attempt registry request try #1 at 01:17:14
+45 verbose etag "858AF632Z3ZLGG5YFMSKNWDKA"
+46 http request GET https://registry.npmjs.org/babelify
+47 verbose request uri https://registry.npmjs.org/react
+48 verbose request no auth needed
+49 info attempt registry request try #1 at 01:17:14
+50 verbose etag "ICB3WRTXGHSKBONJUGK66VPF"
+51 http request GET https://registry.npmjs.org/react
+52 http 304 https://registry.npmjs.org/react-dom
+53 verbose headers { date: 'Tue, 22 Mar 2016 17:17:15 GMT',
+53 verbose headers   via: '1.1 varnish',
+53 verbose headers   'cache-control': 'max-age=300',
+53 verbose headers   etag: '"74WCFHPANIL0XLKAL8Q0QECCF"',
+53 verbose headers   age: '77',
+53 verbose headers   connection: 'keep-alive',
+53 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+53 verbose headers   'x-cache': 'HIT',
+53 verbose headers   'x-cache-hits': '1',
+53 verbose headers   'x-timer': 'S1458667035.092157,VS0,VE0',
+53 verbose headers   vary: 'Accept' }
+54 silly get cb [ 304,
+54 silly get   { date: 'Tue, 22 Mar 2016 17:17:15 GMT',
+54 silly get     via: '1.1 varnish',
+54 silly get     'cache-control': 'max-age=300',
+54 silly get     etag: '"74WCFHPANIL0XLKAL8Q0QECCF"',
+54 silly get     age: '77',
+54 silly get     connection: 'keep-alive',
+54 silly get     'x-served-by': 'cache-sin6927-SIN',
+54 silly get     'x-cache': 'HIT',
+54 silly get     'x-cache-hits': '1',
+54 silly get     'x-timer': 'S1458667035.092157,VS0,VE0',
+54 silly get     vary: 'Accept' } ]
+55 verbose etag https://registry.npmjs.org/react-dom from cache
+56 verbose get saving react-dom to /Users/chang/.npm/registry.npmjs.org/react-dom/.cache.json
+57 verbose correctMkdir /Users/chang/.npm correctMkdir not in flight; initializing
+58 http 304 https://registry.npmjs.org/babel-preset-react
+59 verbose headers { date: 'Tue, 22 Mar 2016 17:17:15 GMT',
+59 verbose headers   via: '1.1 varnish',
+59 verbose headers   'cache-control': 'max-age=300',
+59 verbose headers   etag: '"AAXQGJEKJSO0IQ1TMI84425A4"',
+59 verbose headers   age: '77',
+59 verbose headers   connection: 'keep-alive',
+59 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+59 verbose headers   'x-cache': 'HIT',
+59 verbose headers   'x-cache-hits': '1',
+59 verbose headers   'x-timer': 'S1458667035.095601,VS0,VE0',
+59 verbose headers   vary: 'Accept' }
+60 silly get cb [ 304,
+60 silly get   { date: 'Tue, 22 Mar 2016 17:17:15 GMT',
+60 silly get     via: '1.1 varnish',
+60 silly get     'cache-control': 'max-age=300',
+60 silly get     etag: '"AAXQGJEKJSO0IQ1TMI84425A4"',
+60 silly get     age: '77',
+60 silly get     connection: 'keep-alive',
+60 silly get     'x-served-by': 'cache-sin6922-SIN',
+60 silly get     'x-cache': 'HIT',
+60 silly get     'x-cache-hits': '1',
+60 silly get     'x-timer': 'S1458667035.095601,VS0,VE0',
+60 silly get     vary: 'Accept' } ]
+61 verbose etag https://registry.npmjs.org/babel-preset-react from cache
+62 verbose get saving babel-preset-react to /Users/chang/.npm/registry.npmjs.org/babel-preset-react/.cache.json
+63 verbose correctMkdir /Users/chang/.npm correctMkdir already in flight; waiting
+64 http 304 https://registry.npmjs.org/react
+65 verbose headers { date: 'Tue, 22 Mar 2016 17:17:15 GMT',
+65 verbose headers   via: '1.1 varnish',
+65 verbose headers   'cache-control': 'max-age=300',
+65 verbose headers   etag: '"ICB3WRTXGHSKBONJUGK66VPF"',
+65 verbose headers   age: '76',
+65 verbose headers   connection: 'keep-alive',
+65 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+65 verbose headers   'x-cache': 'HIT',
+65 verbose headers   'x-cache-hits': '2',
+65 verbose headers   'x-timer': 'S1458667035.122546,VS0,VE0',
+65 verbose headers   vary: 'Accept' }
+66 silly get cb [ 304,
+66 silly get   { date: 'Tue, 22 Mar 2016 17:17:15 GMT',
+66 silly get     via: '1.1 varnish',
+66 silly get     'cache-control': 'max-age=300',
+66 silly get     etag: '"ICB3WRTXGHSKBONJUGK66VPF"',
+66 silly get     age: '76',
+66 silly get     connection: 'keep-alive',
+66 silly get     'x-served-by': 'cache-sin6920-SIN',
+66 silly get     'x-cache': 'HIT',
+66 silly get     'x-cache-hits': '2',
+66 silly get     'x-timer': 'S1458667035.122546,VS0,VE0',
+66 silly get     vary: 'Accept' } ]
+67 verbose etag https://registry.npmjs.org/react from cache
+68 verbose get saving react to /Users/chang/.npm/registry.npmjs.org/react/.cache.json
+69 verbose correctMkdir /Users/chang/.npm correctMkdir not in flight; initializing
+70 http 304 https://registry.npmjs.org/babelify
+71 verbose headers { date: 'Tue, 22 Mar 2016 17:17:15 GMT',
+71 verbose headers   via: '1.1 varnish',
+71 verbose headers   'cache-control': 'max-age=300',
+71 verbose headers   etag: '"858AF632Z3ZLGG5YFMSKNWDKA"',
+71 verbose headers   age: '0',
+71 verbose headers   connection: 'keep-alive',
+71 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+71 verbose headers   'x-cache': 'HIT',
+71 verbose headers   'x-cache-hits': '1',
+71 verbose headers   'x-timer': 'S1458667035.122896,VS0,VE994',
+71 verbose headers   vary: 'Accept' }
+72 silly get cb [ 304,
+72 silly get   { date: 'Tue, 22 Mar 2016 17:17:15 GMT',
+72 silly get     via: '1.1 varnish',
+72 silly get     'cache-control': 'max-age=300',
+72 silly get     etag: '"858AF632Z3ZLGG5YFMSKNWDKA"',
+72 silly get     age: '0',
+72 silly get     connection: 'keep-alive',
+72 silly get     'x-served-by': 'cache-sin6920-SIN',
+72 silly get     'x-cache': 'HIT',
+72 silly get     'x-cache-hits': '1',
+72 silly get     'x-timer': 'S1458667035.122896,VS0,VE994',
+72 silly get     vary: 'Accept' } ]
+73 verbose etag https://registry.npmjs.org/babelify from cache
+74 verbose get saving babelify to /Users/chang/.npm/registry.npmjs.org/babelify/.cache.json
+75 verbose correctMkdir /Users/chang/.npm correctMkdir not in flight; initializing
+76 silly install normalizeTree
+77 silly loadCurrentTree Finishing
+78 silly loadIdealTree Starting
+79 silly install loadIdealTree
+80 silly cloneCurrentTree Starting
+81 silly install cloneCurrentTreeToIdealTree
+82 silly cloneCurrentTree Finishing
+83 silly loadShrinkwrap Starting
+84 silly install loadShrinkwrap
+85 silly loadShrinkwrap Finishing
+86 silly loadAllDepsIntoIdealTree Starting
+87 silly install loadAllDepsIntoIdealTree
+88 silly rollbackFailedOptional Starting
+89 silly rollbackFailedOptional Finishing
+90 silly runTopLevelLifecycles Starting
+91 silly runTopLevelLifecycles Finishing
+92 silly install printInstalled
+93 verbose stack Error: Refusing to install react as a dependency of itself
+93 verbose stack     at checkSelf (/usr/local/lib/node_modules/npm/lib/install/validate-args.js:53:14)
+93 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+93 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+93 verbose stack     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+93 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/validate-args.js:16:5
+93 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+93 verbose stack     at Array.forEach (native)
+93 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+93 verbose stack     at Array.forEach (native)
+93 verbose stack     at asyncMap (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+94 verbose cwd /Users/chang/Desktop/my/react
+95 error Darwin 14.5.0
+96 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "react" "react-dom" "babelify" "babel-preset-react"
+97 error node v5.9.0
+98 error npm  v3.7.3
+99 error code ENOSELF
+100 error Refusing to install react as a dependency of itself
+101 error If you need help, you may report this error at:
+101 error     <https://github.com/npm/npm/issues>
+102 verbose exit [ 1, true ]
